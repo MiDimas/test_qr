@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="main.css" type="text/css" media="all">
 </head>
 <body>
-<main class="contentarea">
+<div class="contentarea">
 	<h1>
 		MDN - WebRTC: Still photo capture demo
 	</h1>
@@ -15,15 +15,9 @@
 	</p>
   <div class="camera">
     <video muted playsinline id="video">Video stream not available.</video>
-    <button id="startbutton" onclick="">Take photo</button> 
-  </div>
-  <canvas id="canvas">
-  </canvas>
-  <div class="output">
-    <img id="photo" alt="The screen capture will appear in this box."> 
   </div>
   <div id="log"></div>
-</main>
+</div>
 <script type="module" src="main.js"></script>
 </body>
 </html>
